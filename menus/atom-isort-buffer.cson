@@ -1,0 +1,16 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      {
+        'label': 'Python iSort'
+        'submenu': [
+          {
+            'label': 'Sort Python Imports'
+            'command': 'atom-isort-buffer:sortImports'
+          }
+        ]
+      }
+    ]
+  }
+]

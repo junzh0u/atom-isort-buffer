@@ -1,0 +1,2 @@
+'atom-text-editor[data-grammar="source python"]':
+  'cmd-shift-i': 'atom-isort-buffer:sort'
