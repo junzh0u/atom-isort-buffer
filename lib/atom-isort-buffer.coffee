@@ -12,7 +12,7 @@ module.exports =
       editor = atom.workspace.getActiveTextEditor()
       if not editor?
         return
-      if editor.getGrammar().name != 'Python'
+      if !editor.getGrammar().name.includes('Python')
         return
 
       tmpfile = '/tmp/atom-isort-buffer.py'
